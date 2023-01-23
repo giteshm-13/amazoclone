@@ -23,23 +23,23 @@ AppBar builAppbar() {
     centerTitle: true,
     elevation: 0,
     backgroundColor: Color(0xffcbe6ea),
-    leading: IconButton(
-      icon: SvgPicture.network(
-          'https://raw.githubusercontent.com/abuanwar072/E-commerce-App-UI-Flutter/01a877fdf35b0698d4a4594b1ec406dc63909cce/assets/icons/back.svg'),
-      onPressed: (() {}),
-    ),
+    // leading: IconButton(
+    //   icon: SvgPicture.network(
+    //       'https://raw.githubusercontent.com/abuanwar072/E-commerce-App-UI-Flutter/01a877fdf35b0698d4a4594b1ec406dc63909cce/assets/icons/back.svg'),
+    //   onPressed: (() {}),
+    // ),
     actions: [
       IconButton(
           onPressed: () {},
           icon: SvgPicture.network(
             'https://raw.githubusercontent.com/abuanwar072/E-commerce-App-UI-Flutter/01a877fdf35b0698d4a4594b1ec406dc63909cce/assets/icons/search.svg',
-            color: Colors.white,
+            color: Color(0xff0f0101),
           )),
       IconButton(
           onPressed: () {},
           icon: SvgPicture.network(
             'https://raw.githubusercontent.com/abuanwar072/E-commerce-App-UI-Flutter/01a877fdf35b0698d4a4594b1ec406dc63909cce/assets/icons/cart.svg',
-            color: Colors.white,
+            color: Color(0xff0e0101),
           )),
     ],
   );
